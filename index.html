@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>qr</title>
+</head>
+<body>
+    <div id="main">
+        <br><br>
+        <h1>QR-Codes</h1>
+        <p>by Yachi</p>
+        <br><br>
+        <h3>Paste some text in and press generate</h3>
+        <input id="text-input" type="text">
+        <button onclick="getit()" id="text-input-btn">Generate</button>
+        <br><br><br><br><br><br>
+        <div id="qr-code"></div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

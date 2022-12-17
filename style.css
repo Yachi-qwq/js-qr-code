@@ -1,0 +1,88 @@
+html{
+    background-color: #4B0082;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    border: dotted;
+    color: whitesmoke;
+}
+
+h3{
+    color: whitesmoke;
+}
+
+p{
+    text-align: center;
+    color: gray;
+}
+
+#main{
+    text-align: center;
+}
+
+#text-input{
+    font-size: xx-large;
+}
+
+#text-input-btn{
+    font-size: xx-large;
+}
+
+#abstand{
+    height: 10px;
+}
+
+#qr-code{
+    height: 50px;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+/* menü und so */
+.accordion {
+    background-color: #C39BD3;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 25px;
+    transition: 0.4s;
+    outline-style: dotted;
+  }
+
+  .active,
+  .accordion:hover {
+    background-color: #4A235A;
+    color: white;
+  }
+
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    border-color: #C39BD3;
+  }
+
+  .active:after {
+    content: "\2212";
+  }
+
+  .panel {
+    background-color: #EBDEF0;
+    padding: 0 20px;
+    font-size: 25px;
+    text-align: left;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
